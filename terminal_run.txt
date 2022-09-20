@@ -1,0 +1,184 @@
+~/ $ echo hello
+hello
+~/ $ nano
+~/ $ #!/bin/bash
+~/ $ echo "Printing text with newline"
+Printing text with newline
+~/ $ echo -n "Printing text without newline"
+Printing text without newline~/ $ echo -e "\nRemoving \t backslash \t characters\n"
+
+Removing         backslash       characters
+
+~/ $ ls
+~/ $ nano run.sh
+~/ $ bash run.sh
+Printing text with newline
+Printing text without newline
+Removing         backslash       characters
+
+~/ $ nano run.sh
+~/ $ bash run.sh
+60
+~/ $ nano test.sh
+~/ $ bash test.sh
+25
+~/ $ nano while
+~/ $ bash while
+1
+2
+3
+4
+5
+~/ $ bash run.sh
+10 9 8 7 6 5 4 3 2 1 
+~/ $ bash run.sh
+Enter Your Name
+haamid
+Welcome haamid to LinuxHint
+~/ $ bash run.sh
+It is a two digit number
+~/ $ bash run.sh
+run.sh: line 1: !/bin/bash: No such file or directory
+Enter username
+haamid
+Enter password
+123passowrd
+run.sh: line 13: syntax error: unexpected end of file
+~/ $ bash run.sh
+run.sh: line 1: !/bin/bash: No such file or directory
+Enter username
+admin
+Enter password
+secret
+run.sh: line 13: syntax error: unexpected end of file
+~/ $ bash run.sh
+run.sh: line 1: !/bin/bash: No such file or directory
+Enter username
+admin
+Enter password
+secret
+valid user
+~/ $ bash run.sh
+Enter any number
+12
+You lost the game
+~/ $ bash run.sh
+Enter your lucky number
+12
+Sorry, try for the next time
+~/ $ bash run.sh
+Enter your lucky number
+101
+You got 1st prize
+~/ $ bash run.sh
+Enter your lucky number
+101
+You got 1st prize
+~/ $ bash run.sh
+Enter your lucky number
+101
+echo You got 1st prize
+~/ $ bash run.sh
+Enter your lucky number
+101
+You got 1st prize
+~/ $ bash run.sh
+Total arguments : 0
+1st Argument = 
+2nd argument = 
+~/ $ bash run.sh haamid shah
+Total arguments : 2
+1st Argument = haamid
+2nd argument = shah
+~/ $ bash run.sh haamid shah
+X+Y=0
+~/ $ bash run.sh 20 40
+X+Y=0
+~/ $ bash run.sh 20 40
+X+Y=0
+~/ $ bash run.sh X=20 Y=40                                                       
+X+Y=60
+~/ $ bash run.sh X=20 Y=40
+LinuxHint
+Linux+Hint is a good tutorial blog site
+~/ $ bash run.sh
+LinuxHint
+Linux+Hint is a good tutorial blog site
+~/ $ bash run.sh
+LinuxHint
+LinuxHint is a good tutorial blog site
+~/ $ bash run.sh
+LinuxHint
+Linux+Hint is a good tutorial blog site
+~/ $ bash run.sh
+LinuxHint
+Linux+Hint is a good tutorial blog site
+LinuxHint
+~/ $ bash run.sh
+Linux
+~/ $ bash run.sh
+arn L
+~/ $ bash run.sh
+arn Lin
+~/ $ bash run.sh
+Enter first number
+10
+Enter second number
+20
+The result of addition=30
+~/ $ bash run.sh
+I like bash programming
+~/ $ bash run.sh
+Area is : 200
+~/ $ bash run.sh
+Enter your name
+haamid
+Return value of the function is Hello, haamid
+~/ $ bash run.sh
+Enter directory name
+haamidd
+~/ $ ls
+haamidd/  run.sh  test.sh  while
+~/ $ ls
+haamidd/  run.sh  test.sh  while
+~/ $ bash run.sh
+Enter directory name
+haamidd
+Directory exist
+~/ $ bash run.sh
+run.sh: line 5: book.txt: No such file or directory
+~/ $ touch book.txt
+~/ $ bash run.sh                                       
+~/ $ nano book.txt
+~/ $ bash run.sh                                       
+hello there
+
+~/ $ bash run.sh
+Enter filename to remove
+book.txt
+rm: remove regular file 'book.txt'? y
+~/ $ ls
+haamidd/  run.sh  test.sh  while
+~/ $ nano book.txt
+~/ $ bash run.sh
+Before appending the file
+hello there 
+After appending the file
+hello there 
+Learning Laravel 5
+~/ $ bash run.sh
+File does not exist
+~/ $ bash run.sh
+run.sh: line 4: to: command not found
+run.sh: line 5: mail: command not found
+~/ $ bash run.sh
+Tue Sep 20 16:31:43 UTC 2022
+Current Date is: 20-09-2022
+Current Time is: 16:31:43
+~/ $ bash run.sh
+Wait command
+Exited with status 0
+~/ $ bash run.sh
+“Wait for 5 seconds”
+“Completed”
+~/ $ 
